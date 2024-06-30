@@ -1,8 +1,17 @@
+.container{
+    color: black;
+    margin: 0px;
+    box-sizing: border-box;
+    padding-left: auto;
+    padding-right: auto;
+}
+
 .bgOne{
-    background-image: linear-gradient( rgba(51, 150, 196, 0.39),rgba(240, 119, 119, 0.692));
-    background-size: 1000vh 100vw;
-    background-position: center;
+    background-image: url(./Assets/Images/movieBg2.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .bgTwo{
@@ -46,6 +55,10 @@ footer{
     left: 50%;
 }
 
+body{
+    margin: 10px;
+}
+
 h1{
     text-align: center;
     color: maroon;
@@ -57,7 +70,7 @@ h2{
 
 p{
     font-size: 1rem;
-}
+    }
 
 .centred{
     text-align: center;
