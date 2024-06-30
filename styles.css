@@ -6,6 +6,11 @@
     padding-right: auto;
 }
 
+.containerOne{
+    font-family: Georgia, Verdana, sans-serif;
+    letter-spacing: 3px;
+}
+
 .bgOne{
     background-image: url(./Assets/Images/movieBg2.jpg);
     background-repeat: no-repeat;
@@ -15,10 +20,19 @@
 }
 
 .bgTwo{
-    background-image: linear-gradient(rgba(169, 169, 169, 0.815), rgba(0, 211, 0, 0.767));
+    position: absolute;
+    left: 0;
+    top: 0;
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgba(185, 185, 185, 0.712);
+    background-image: url(./Assets/Images/floral-minimalistic.jpg);
+    background-blend-mode: multiply;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
 }
 
 .bgThree{
@@ -61,7 +75,8 @@ body{
 
 h1{
     text-align: center;
-    color: maroon;
+    color: rgb(255, 255, 255);
+    font-size: 80px;
 }
 
 h2{
@@ -71,6 +86,18 @@ h2{
 p{
     font-size: 1rem;
     }
+
+.whiteFont{
+    color: beige;
+}
+
+.crimsonFont{
+    color: rgb(255, 242, 66);
+}
+
+.zeroMargin{
+    margin: 0;
+}
 
 .centred{
     text-align: center;
