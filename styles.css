@@ -1,0 +1,69 @@
+.bgOne{
+    background-image: linear-gradient( rgba(51, 150, 196, 0.39),rgba(240, 119, 119, 0.692));
+    background-size: 1000vh 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bgTwo{
+    background-image: linear-gradient(rgba(169, 169, 169, 0.815), rgba(0, 211, 0, 0.767));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgThree{
+    background-image: linear-gradient(rgba(255, 255, 37, 0.712), rgba(255, 176, 28, 0.658));
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgFull{
+    background-image: url(./Assets/Images/bg-minimalist-doodle-1.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgBdayFull{
+    background-image: url(./Assets/Images/bday3.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body,html{
+    height: 100vh;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+
+h1{
+    text-align: center;
+    color: maroon;
+}
+
+h2{
+    color: rgb(163, 1, 155);
+}
+
+p{
+    font-size: 1rem;
+}
+
+.centred{
+    text-align: center;
+    list-style-position:inside;
+}
+
+.roundImage{
+    border-radius: 30px 90px 30px 90px;
+}
